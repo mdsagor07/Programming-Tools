@@ -1,0 +1,1 @@
+#include<bits\stdc++.h>using namespace std;class rectangle(){    int h;    int w;public:    rectangle (int a,int b)    {        h=a,w=b;    }    rectangle()    {        h=2,w=3;    }    int area()    {        return h*w;    }} ;int main(){}

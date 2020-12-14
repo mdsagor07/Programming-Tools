@@ -1,0 +1,1 @@
+#include<iostream>#include<cstdio>using namespace std;int main(){    int t,c,d,count = 0;    double n;    cin>>t;    while(t--)    {        cin>>c>>d;        n=c + d*5/9;        cout<<"Case" << count++ << ":"<<n<<endl;    }}
